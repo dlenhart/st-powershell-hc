@@ -15,6 +15,9 @@ Inspired by:  https://gallery.technet.microsoft.com/scriptcenter/Powershell-Scri
 
 Update 'server-status.txt' with a list of websites to monitor.
 
+Author:  Drew D. Lenhart
+File Name:  hc_ping.ps1
+
 .LINK
 http://github.com/snowytech/st-powershell-hc
 

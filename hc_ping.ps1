@@ -5,12 +5,14 @@ This is a simple Powershell script to ping a list of websites or servers from a 
 
 .DESCRIPTION
 The script performs a test-connection on a list of websites/servers to get an up or down status.
+-optional failure email, uncomment function in script...
 
 .EXAMPLE
 ./hc_ping.ps1
 
 .NOTES
--optional failure email, uncomment function in script...
+Author:  Drew D. Lenhart
+File Name:  hc_ping.ps1
 
 .LINK
 http://github.com/snowytech/st-powershell-hc
