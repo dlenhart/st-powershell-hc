@@ -52,8 +52,6 @@ foreach($Uri in $ServerList) {
     $StatusDescription = $request.StatusDescription 
     $TimeTaken =  $LogTime;
     
-
-
     if($StatusCode -ne "200") 
         {
             $MilliSecondsResp =  0
