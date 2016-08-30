@@ -10,7 +10,7 @@ The script performs a test-connection on a list of websites/servers to get an up
 ./hc_ping.ps1
 
 .NOTES
--optional failure email, uncomment function in script.
+-optional failure email, uncomment function in script...
 
 .LINK
 http://github.com/snowytech/st-powershell-hc
@@ -54,10 +54,10 @@ $failCount = 0
 
 foreach ($Server in $ServerList) {
 
-if (test-Connection -ComputerName $Server -Count 2 -Quiet ) {
+    if (test-Connection -ComputerName $Server -Count 2 -Quiet ) {
 
-    echo "($Server): is pingable"
-    $Outputreport += "<tr><td>$Server</td><td style='background-color: green; color: white'>ONLINE</td></tr>"
+        echo "($Server): is pingable"
+        $Outputreport += "<tr><td>$Server</td><td style='background-color: green; color: white'>ONLINE</td></tr>"
     }
     else
     { 
