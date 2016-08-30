@@ -8,7 +8,7 @@ The script performs a test-connection on a list of websites/servers to get an up
 -optional failure email, uncomment function in script...
 
 .EXAMPLE
-./hc_ping.ps1
+.\hc_ping.ps1
 
 .NOTES
 Author:  Drew D. Lenhart

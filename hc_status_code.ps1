@@ -27,7 +27,6 @@ $ServerListFile = "server-status.txt"
 $ServerList = Get-Content $ServerListFile -ErrorAction SilentlyContinue
 $LogTime = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 $LogFile = "logs\hc_status_code-results.html"
-$Result = @()
 
 $Outputreport = "<html><title>Website Status Codes</title><body><h2>Website Status Code Check</h2>
     <table border=1 cellpadding=0 cellspacing=0><tr align=center>
