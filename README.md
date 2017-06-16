@@ -3,18 +3,18 @@ st-powershell-hc
 
 My stash of simple powershell scripts to perform health checks on servers or websites.
 
-#Scripts
-
+Scripts
+----
 **hc_ping.ps1** - Pings a list of servers or websites from a text file.  Optional failure email.
 
 **hc_status_code.ps1** - Gets the http status code from a list of websites in a text file.
 
-#Required
-
+Required
+----
 1.  Powershell 3.0+
 
 #Website
-http://snowytech.com/drewlenhart
+http://www.drewlenhart.com
 
 #License
 MIT License
